@@ -10,14 +10,14 @@
 
 `netstat -l`
 
+- List listening TCP ports
+
+`netstat -t`
+
 - Display PID and program names
 
 `netstat -p`
 
-- Find out which port a process is running (e.g. find out which port ssh is listening on)
+- List information continiously
 
-`netstat -ap | grep ssh`
-
-- Find out which process is listening on a particular port
-
-`netstat -ap | grep ':80'`
+`netstat -c`
