@@ -23,6 +23,10 @@
 
 `curl --head {{http://localhost}}`
 
+- include an extra header
+
+`curl --header "{{X-MyHeader: 123}}" {{http://localhost}}`
+
 - pass a user name and password for server authentication
 
 `curl -u ***REMOVED*** {{http://localhost}}`
