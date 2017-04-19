@@ -27,6 +27,6 @@
 
 `curl -u ***REMOVED*** -I {{http://example.com}}`
 
-- Pass client certificate and key for a (possibly insecure) resource:
+- Pass client certificate and key for a resource, skipping certificate validation:
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
