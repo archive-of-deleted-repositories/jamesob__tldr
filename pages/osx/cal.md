@@ -6,18 +6,22 @@
 
 `cal`
 
-- Display a calendar for a specific month:
+- Display a calendar for a specific month (1-12 or name):
 
-`cal -m {{month_number}}`
+`cal -m {{month}}`
 
-- Display a 12 month calendar for the current year:
+- Display a calendar for the current year:
 
 `cal -y`
 
-- Display a 12 month calendar for a specific year:
+- Display a calendar for a specific year (4 digits):
 
-`cal 2016`
+`cal {{year}}`
 
-- Display date of Easter (western churches):
+- Display a calendar for a specific month and year:
+
+`cal {{month}} {{year}}`
+
+- Display date of Easter (Western Christian churches) in a given year:
 
 `ncal -e {{year}}`
